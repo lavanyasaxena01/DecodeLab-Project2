@@ -24,15 +24,30 @@ The project follows a complete machine learning workflow including Exploratory D
 
 **Dataset Name:** Credit Card Fraud Detection
 
-The dataset contains anonymized credit card transactions made by European cardholders.
+This project uses the **Credit Card Fraud Detection** dataset containing anonymized transactions made by European cardholders.
+
+Due to GitHub's file size limitations, the original dataset is **not included** in this repository. Instead, a **stratified sample** of the dataset is provided (`creditcard_sample.csv`) to keep the repository lightweight while preserving the original class distribution.
+
+The complete dataset can be downloaded from Kaggle:
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+After downloading, place the dataset in the project directory before running the notebook if you wish to reproduce the results on the full dataset.
 
 ### Dataset Information
 
-- Transactions: 226,980
-- Features: 30
-- Target Column: `Class`
-  - 0 → Legitimate Transaction
-  - 1 → Fraudulent Transaction
+- Original Dataset Size: **226,980 Transactions**
+- Features: **30**
+- Target Variable: **Class**
+  - **0** → Legitimate Transaction
+  - **1** → Fraudulent Transaction
+
+### Repository Dataset
+
+- File: `creditcard_sample.csv`
+- Purpose: Demonstration and reproducibility
+- Sampling Method: Stratified Sampling
+- Preserves the original fraud-to-normal transaction ratio.
 
 ### Features
 
