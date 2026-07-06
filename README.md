@@ -221,6 +221,4 @@ Through this project, the following concepts were implemented:
 
 B.Tech Artificial Intelligence & Data Science
 
-DecodeLabs Industrial Training Program – 2026
-
 ---
